@@ -60,7 +60,7 @@ import GameOver from './GameOver';
    return (
     <div>
         <div className="details-box">  
-        <div className='resetButton' onClick={resetGame}>Reset Game</div>
+        <div className='resetButton' onClick={resetGame}>New Game</div>
         <div className='score-box'>
             <div className='score-header'>SCORE</div>
             <div>{board.score}</div>
